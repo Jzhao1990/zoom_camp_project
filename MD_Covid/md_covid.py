@@ -32,6 +32,35 @@ SELECT
     Montgomery, Prince_Georges, Queen_Annes, Somerset, St_Marys, Talbot, Washington,
     Wicomico, Worcester, Unknown
 FROM `{PROJECT_ID}.{DATASET_ID}.md_covid`;
+
+truncate table `curated_dataset.md_covid_breakdown`;
+insert into `curated_dataset.md_covid_breakdown`
+select DATE,'Allegany' as County,Allegany as amount from curated_dataset.md_covid union all
+select DATE,'Anne_Arundel' as County,Anne_Arundel as amount from curated_dataset.md_covid union all
+select DATE,'Baltimore' as County,Baltimore as amount from curated_dataset.md_covid union all
+select DATE,'Baltimore_City' as County,Baltimore_City as amount from curated_dataset.md_covid union all
+select DATE,'Calvert' as County,Calvert as amount from curated_dataset.md_covid union all
+select DATE,'Caroline' as County,Caroline as amount from curated_dataset.md_covid union all
+select DATE,'Carroll' as County,Carroll as amount from curated_dataset.md_covid union all
+select DATE,'Cecil' as County,Cecil as amount from curated_dataset.md_covid union all
+select DATE,'Charles' as County,Charles as amount from curated_dataset.md_covid union all
+select DATE,'Dorchester' as County,Dorchester as amount from curated_dataset.md_covid union all
+select DATE,'Frederick' as County,Frederick as amount from curated_dataset.md_covid union all
+select DATE,'Garrett' as County,Garrett as amount from curated_dataset.md_covid union all
+select DATE,'Harford' as County,Harford as amount from curated_dataset.md_covid union all
+select DATE,'Howard' as County,Howard as amount from curated_dataset.md_covid union all
+select DATE,'Kent' as County,Kent as amount from curated_dataset.md_covid union all
+select DATE,'Montgomery' as County,Montgomery as amount from curated_dataset.md_covid union all
+select DATE,'Prince_Georges' as County,Prince_Georges as amount from curated_dataset.md_covid union all
+select DATE,'Queen_Annes' as County,Queen_Annes as amount from curated_dataset.md_covid union all
+select DATE,'Somerset' as County,Somerset as amount from curated_dataset.md_covid union all
+select DATE,'St_Marys' as County,St_Marys as amount from curated_dataset.md_covid union all
+select DATE,'Talbot' as County,Talbot as amount from curated_dataset.md_covid union all
+select DATE,'Washington' as County,Washington as amount from curated_dataset.md_covid union all
+select DATE,'Wicomico' as County,Wicomico as amount from curated_dataset.md_covid union all
+select DATE,'Worcester' as County,Worcester as amount from curated_dataset.md_covid union all
+select DATE,'Unknown' as County,Unknown as amount from curated_dataset.md_covid
+ 
 """
 
 SCHEMA = [
