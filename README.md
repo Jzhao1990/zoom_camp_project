@@ -29,6 +29,7 @@ A data pipeline in **Airflow** needs to be built that pulls in data daily from [
 ### Source:
 Data to be loaded from the public dataset:  
 [MD Covid-19 Cases by County - Data.gov](https://catalog.data.gov/dataset/md-covid-19-cases-by-county)
+![Covid Data Pipeline](./images/Source.png)
 
 ### Data Lake:
 Data is stored in a data lake within a Google Cloud Storage bucket (GCS).
