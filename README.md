@@ -33,21 +33,21 @@ Data is stored in a data lake within a Google Cloud Storage bucket (GCS).
 ![Covid Data Pipeline](./images/Datalake.png)
 
 ### Dataset:
-- **Staging Dataset**:
+- Staging Dataset:
 
 ![Covid Data Pipeline](./images/Staging.png)
 
-- **Curated Dataset**:
+- Curated Dataset:
 
 ![Covid Data Pipeline](./images/Curated.png)
 
 ### Data Transformation:
-The raw data will be transformed within BigQuery.
+The raw data is transformed within BigQuery.
 
 ![Covid Data Pipeline](./images/Transform.png)
 
 ### Orchestration:
-An orchestrated data pipeline will be built in Airflow with a daily data refresh at 20:00:00 UTC.
+An orchestrated data pipeline is built in Airflow with a daily data refresh at 20:00:00 UTC.
 
 ![Covid Data Pipeline](./images/Airflow.png)
 
@@ -57,7 +57,7 @@ The dashboard can be found here:
 
 ![Covid Data Pipeline](./images/Dashboard.png)
 
-**Disclaimer**: The dashboard will be updated until June 21, 2025, as my trial period on Google Cloud expires at that time.
+*Disclaimer*: The dashboard will be able to be updated until June 21, 2025 before my trial period on Google Cloud expires.
 
 ## Future Work That Could Be Done
 
