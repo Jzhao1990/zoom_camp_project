@@ -39,6 +39,7 @@ Data is stored in a data lake within a Google Cloud Storage bucket (GCS).
 
 ### Data Transformation:
 The raw data will be transformed within BigQuery.
+
 ![Covid Data Pipeline](./images/Transform.png)
 
 ### Orchestration:
