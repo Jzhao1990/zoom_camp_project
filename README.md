@@ -24,7 +24,7 @@ A data pipeline in **Airflow** needs to be built that pulls in data daily from [
 - **Visualization**: Google Looker Studio
 
 ## Pipeline
-![Covid Data Pipeline](./images/pipeline.png)
+![Covid Data Pipeline](./images/Pipeline.png)
 
 ### Source:
 Data to be loaded from the public dataset:  
