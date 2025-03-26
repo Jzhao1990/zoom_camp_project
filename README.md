@@ -2,7 +2,7 @@
 
 ## Overview
 
-Coronavirus is a new word coming into everyone’s life since early 2020. Although the peak of the crisis has been over, I am curious about the impact to the state of Maryland. Therefore, for my final project for the Data Engineering Zoomcamp by DataTalks Club, I want to analyze the data to see county distribution and daily trends.
+Coronavirus is a new word coming into everyone’s life since early 2020. Although the peak of the crisis has been over, I am curious about the impact to the state of Maryland. Therefore, for my final project for the [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) by [DataTalks Club](https://datatalks.club/), I want to analyze the data to see county distribution and daily trends.
 
 ## Problem Description
 
