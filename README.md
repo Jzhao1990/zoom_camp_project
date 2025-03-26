@@ -64,7 +64,3 @@ The dashboard can be found here:
 - **Reproducibility**: Ensure the pipeline is easily reproducible in other environments.
 - **Implement CI/CD**: Set up Continuous Integration/Continuous Deployment for automated testing and deployment.
 - **DBT Transformation**: Implement DBT (Data Build Tool) for better data transformations.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
