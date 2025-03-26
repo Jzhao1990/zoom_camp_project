@@ -19,21 +19,25 @@ Coronavirus is a new word coming into everyone’s life since early 2020. Althou
 - **Visualization**: Google Looker Studio
 
 ## Pipeline
+
 ![Covid Data Pipeline](./images/Pipeline.png)
 
 ### Source:
 Data to be loaded from the public dataset: [MD Covid-19 Cases by County - Data.gov](https://catalog.data.gov/dataset/md-covid-19-cases-by-county).
+
 ![Covid Data Pipeline](./images/Source.png)
 
 ### Data Lake:
 Data is stored in a data lake within a Google Cloud Storage bucket (GCS).
+
 ![Covid Data Pipeline](./images/Datalake.png)
 
 ### Dataset:
-- **Staging Dataset**: (Details on the staging dataset here)
+- **Staging Dataset**:
 
 ![Covid Data Pipeline](./images/Staging.png)
-- **Curated Dataset**: (Details on the curated dataset here)
+
+- **Curated Dataset**:
 
 ![Covid Data Pipeline](./images/Curated.png)
 
@@ -44,10 +48,13 @@ The raw data will be transformed within BigQuery.
 
 ### Orchestration:
 An orchestrated data pipeline will be built in Airflow with a daily data refresh at 20:00:00 UTC.
+
 ![Covid Data Pipeline](./images/Airflow.png)
 
 ## Visualization
+
 ![Covid Data Pipeline](./images/Dashboard.png)
+
 The dashboard can be found here:  
 [Covid-19 Data Visualization - Looker Studio](https://lookerstudio.google.com/reporting/0876bd1f-5d04-430c-9dd4-a4594d786d83/page/p_gv11gmiyqd)
 
