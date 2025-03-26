@@ -22,8 +22,7 @@ Coronavirus is a new word coming into everyone’s life since early 2020. Althou
 ![Covid Data Pipeline](./images/Pipeline.png)
 
 ### Source:
-Data to be loaded from the public dataset:  
-[MD Covid-19 Cases by County - Data.gov](https://catalog.data.gov/dataset/md-covid-19-cases-by-county)
+Data to be loaded from the public dataset: [MD Covid-19 Cases by County - Data.gov](https://catalog.data.gov/dataset/md-covid-19-cases-by-county).
 ![Covid Data Pipeline](./images/Source.png)
 
 ### Data Lake:
@@ -31,18 +30,17 @@ Data is stored in a data lake within a Google Cloud Storage bucket (GCS).
 ![Covid Data Pipeline](./images/Datalake.png)
 
 ### Dataset:
-
 - **Staging Dataset**: (Details on the staging dataset here)
-- ![Covid Data Pipeline](./images/Staging.png)
+  ![Covid Data Pipeline](./images/Staging.png)
 - **Curated Dataset**: (Details on the curated dataset here)
-- ![Covid Data Pipeline](./images/Curated.png)
+  ![Covid Data Pipeline](./images/Curated.png)
 
 ### Data Transformation:
-The raw data will be transformed within **BigQuery**.
+The raw data will be transformed within BigQuery.
 ![Covid Data Pipeline](./images/Transform.png)
 
 ### Orchestration:
-An orchestrated data pipeline will be built in **Airflow** with a daily data refresh at **20:00:00 UTC**.
+An orchestrated data pipeline will be built in Airflow with a daily data refresh at 20:00:00 UTC.
 ![Covid Data Pipeline](./images/Airflow.png)
 
 ## Visualization
@@ -56,7 +54,7 @@ The dashboard can be found here:
 
 - **Reproducibility**: Ensure the pipeline is easily reproducible in other environments.
 - **Implement CI/CD**: Set up Continuous Integration/Continuous Deployment for automated testing and deployment.
-- **DBT Transformation**: Implement **DBT** (Data Build Tool) for better data transformations.
+- **DBT Transformation**: Implement DBT (Data Build Tool) for better data transformations.
 
 ## License
 
