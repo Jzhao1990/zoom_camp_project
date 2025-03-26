@@ -31,9 +31,9 @@ Data is stored in a data lake within a Google Cloud Storage bucket (GCS).
 
 ### Dataset:
 - **Staging Dataset**: (Details on the staging dataset here)
-  ![Covid Data Pipeline](./images/Staging.png)
+![Covid Data Pipeline](./images/Staging.png)
 - **Curated Dataset**: (Details on the curated dataset here)
-  ![Covid Data Pipeline](./images/Curated.png)
+![Covid Data Pipeline](./images/Curated.png)
 
 ### Data Transformation:
 The raw data will be transformed within BigQuery.
