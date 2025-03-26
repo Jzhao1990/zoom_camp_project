@@ -52,11 +52,10 @@ An orchestrated data pipeline will be built in Airflow with a daily data refresh
 ![Covid Data Pipeline](./images/Airflow.png)
 
 ## Visualization
-
-![Covid Data Pipeline](./images/Dashboard.png)
-
 The dashboard can be found here:  
 [Covid-19 Data Visualization - Looker Studio](https://lookerstudio.google.com/reporting/0876bd1f-5d04-430c-9dd4-a4594d786d83/page/p_gv11gmiyqd)
+
+![Covid Data Pipeline](./images/Dashboard.png)
 
 **Disclaimer**: The dashboard will be updated until June 21, 2025, as my trial period on Google Cloud expires at that time.
 
