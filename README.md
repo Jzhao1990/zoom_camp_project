@@ -6,12 +6,10 @@ Coronavirus is a new word coming into everyone’s life since early 2020. Althou
 
 ## Problem Description
 
-- A data pipeline in **Airflow** needs to be built that pulls in data daily from [DATA.GOV](https://catalog.data.gov/dataset/md-covid-19-cases-by-county), ingests it by batch, and loads it into **Google Cloud Storage** (GCS) and then **BigQuery**.
-- **Data Transformation**: The raw data will be transformed within **BigQuery**.
-- **Visualization**: The data will be visualized using **Google Looker Studio**.
-- Questions to be Answered
--- How are the Covid-19 cases spread across counties in Maryland?
--- What does the daily trend look like for the top 5 counties in Maryland?
+- A data pipeline in Airflow needs to be built that pulls in data daily from [DATA.GOV](https://catalog.data.gov/dataset/md-covid-19-cases-by-county), ingests it by batch, and loads it into Google Cloud Storage (GCS) and then BigQuery.
+- Data Transformation: The raw data will be transformed within BigQuery.
+- Visualization: The data will be visualized using Google Looker Studio.
+- Questions to be Answered: How are the Covid-19 cases spread across counties in Maryland? What does the daily trend look like for the top 5 counties in Maryland?
 
 ## Technology Utilized
 
